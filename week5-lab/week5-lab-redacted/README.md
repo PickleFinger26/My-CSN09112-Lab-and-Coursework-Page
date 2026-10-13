@@ -9,9 +9,6 @@ Create a customer-managed symmetric AWS KMS key and use it to encrypt and decryp
 - KMS key alias: `alias/MySymKey`
 - AWS CLI and Python with Boto3
 
-> **Security:** Do not commit AWS credentials, session tokens, AWS CLI configuration, terminal screenshots containing secrets, or real confidential plaintext. The key alias is safe to document; an AWS KMS key in another account must be created separately for anyone reproducing this lab.
-
-> **Screenshot privacy:** Screenshots have permanent solid redactions hiding terminal identifiers, KMS key IDs and ciphertext values. Do not upload the unredacted originals or any image showing AWS access keys, secret keys, or session tokens. Rotate credentials that were previously exposed.
 
 ## Tasks completed
 1. Created and enabled a symmetric customer-managed key named `MySymKey`.
